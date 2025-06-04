@@ -1,0 +1,13 @@
+Source: iwl-trans
+Section: kernel
+Priority: optional
+Maintainer: Star Labs <admin@starlabs.systems>
+Build-Depends: debhelper-compat (= 13), dh-sequence-dkms
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+
+Package: iwl-trans-dkms
+Architecture: all
+Depends: ${misc:Depends}, dkms
+Provides: iwl-trans
+Description: Intel Wireless
